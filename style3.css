@@ -2,8 +2,6 @@ body {
     background: white;
 }
 
-
-
 #navigation {
     display: flex;
     flex-flow: row wrap;
@@ -23,7 +21,17 @@ body {
   color: white;
 }
 
-li {
+#websiteLogo li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#navigation li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footerContact li {
     display: inline-block;
     margin: 0 10px;
 }
@@ -43,7 +51,7 @@ li {
 }
 
 .footer {
-    background: gray;
+    background: silver;
 }
 
 #headline {
@@ -51,5 +59,45 @@ li {
     justify-content: center;
     align-content: center;
 }
+
+#footerContact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 30px;
+    list-style: none;
+    background: white;
+    border-radius: 10px;
+}
+
+#footerContact a {
+    background: silver;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+#footerContact a:hover {
+    background: #f77e05;
+    box-shadow: inset 0 0 60px 1px rgba(0, 0, 0, .3);
+}
+
+#footerContact .footer {
+    background: silver;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+#footerContact li a {
+    border-radius: 25px;
+}
+
+#footerContact li footer {
+    border-radius: 25px;
+}
+
 
 
