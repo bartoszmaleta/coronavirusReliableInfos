@@ -2,11 +2,16 @@ body {
     background: white;
 }
 
+#websiteLogo li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
 #navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 30px;
+    margin: 5px;
     margin-left: 40px;
     margin-right: 40px;
     list-style: none;
@@ -21,17 +26,7 @@ body {
   color: white;
 }
 
-#websiteLogo li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
 #navigation li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-#footerContact li {
     display: inline-block;
     margin: 0 10px;
 }
@@ -64,10 +59,15 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin: 30px;
+    margin: 5px;
     list-style: none;
     background: white;
     border-radius: 10px;
+}
+
+#footerContact li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 #footerContact a {
@@ -89,6 +89,33 @@ body {
     display: block;
     padding: 1em;
     color: black;
+}
+
+#contactList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px;
+    list-style: none;
+    background: white;
+    border-radius: 10px;
+}
+
+#contactList li {
+    margin: 40px;
+}
+
+#addressColumn li {
+    margin: 0px;
+}
+
+#contactList .contactElement {
+    background: #657cc3;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+    border-radius: 25px;
 }
 
 #footerContact li a {
