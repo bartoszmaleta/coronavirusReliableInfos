@@ -101,7 +101,12 @@ body {
     border-radius: 10px;
 }
 
+#contactList .contactElement address li{
+    list-style-type: circle;
+}
+
 #contactList li {
+    list-style: none;
     margin: 40px;
 }
 
